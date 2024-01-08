@@ -1,16 +1,26 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+I have used the free open-source 'https://open-meteo.com/' weather API to get weather updates based on user location. I have also added some other features, which are as follows:.
+* Location selection using Google.
+* User settings to convert temperature units.
+* User settings to show full-length forecast.
 
-## Getting Started
+## Configuration
+* Dart 2.19.1
+* Flutter sdk 3.7.1
 
-This project is a starting point for a Flutter application.
+## Important Libraries
+* Dio - network call
+* Providers - state management
+* FontAwesome - attractive icons
+* Gelocation - user location and places
 
-A few resources to get you started if this is your first Flutter project:
+## Works Well 
+* Android
+* IOS
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Happy Coding.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
