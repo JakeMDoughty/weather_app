@@ -1,0 +1,4 @@
+#Sun Jan 07 18:26:33 GMT 2024
+base.0=/Users/uzairsabir/Desktop/uzair/projects/weather_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

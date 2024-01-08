@@ -1,0 +1,56 @@
+name: weather_app
+description: Weather application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+
+dependencies:
+  flutter: #flutter sdk
+    sdk: flutter
+
+  provider: ^6.0.0 #provider state manager
+  dio: ^4.0.0 #network manager
+  dio_http2_adapter: ^2.0.0 #network client adapter
+  connectivity: ^3.0.6 #network connectivity check
+  json_annotation: ^4.0.1 #json annotation provider
+  google_fonts: ^4.0.4 #google fonts
+  font_awesome_flutter: ^10.4.0 # icons
+  flutter_localization: ^0.1.13 # multi language
+  shared_preferences: ^2.0.6 # storage
+  top_snackbar_flutter: ^2.1.1 # message bar
+  fluro: ^2.0.5 # routing
+  flutter_secure_storage: ^6.0.0 #secure storage
+  geolocator: ^10.1.0 #To get user location
+  geocoding: ^2.1.1 # To get location name from latlng
+  google_places_flutter: ^2.0.6 #location auto complete selector
+  get: ^4.6.5 #to hold pref instance only
+  
+
+
+dev_dependencies: #dev dependencies
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  build_runner: ^2.0.5 #generate scripts
+  json_serializable: ^6.5.4 #json serializable
+  change_app_package_name: ^1.1.0
+  flutter_native_splash: ^2.0.0 #to generate splash icon  
+
+ 
+ 
+flutter: #external paths and properties
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/languages/en.json
+    - assets/languages/ur.json
+  fonts:
+    - family: Popins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          style: italic
+
+
